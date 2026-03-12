@@ -1,0 +1,28 @@
+# Librerías principales para análisis de datos
+pandas==2.2.1
+numpy==1.26.4
+
+# Visualización en Python
+matplotlib==3.8.3
+seaborn==0.13.2
+plotly==5.19.0
+
+# Conexión y manejo de bases de datos SQL
+sqlalchemy==2.0.29
+psycopg2-binary==2.9.9   # PostgreSQL
+mysqlclient==2.2.4       # MySQL (opcional)
+
+# Dashboard interactivo en Python
+streamlit==1.32.0
+
+# Jupyter Notebooks para EDA y documentación técnica
+jupyter==1.0.0
+
+# Exportación de datos para Power BI
+openpyxl==3.1.2   # Manejo de Excel
+xlsxwriter==3.1.9 # Exportación a Excel
+pyodbc==5.1.0     # Conexión ODBC (Power BI puede usarlo)
+
+# Opcional: reproducibilidad y despliegue
+docker==7.0.0     # Solo si usas Docker para empaquetar
+
